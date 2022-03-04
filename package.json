@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "invoke-local": "sls invoke local -f hero-insert --path mocks/heroes.insert.json",
+    "invoke-local-trigger": "sls invoke local -f hero-trigger --path mocks/heroes.trigger.json",
     "invoke": "sls invoke -f hero-insert --path mocks/heroes.insert.json"
   },
   "keywords": [],

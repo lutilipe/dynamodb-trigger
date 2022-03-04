@@ -1,3 +1,4 @@
 module.exports = {
-    heroesInsert: require("./src/heroes.insert")
+    heroesInsert: require("./src/heroes.insert"),
+    heroesTrigger: require("./src/triggers/heroes.trigger")
 }

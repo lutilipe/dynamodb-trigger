@@ -1,0 +1,40 @@
+{
+    "Records": [
+        {
+            "eventID": "df8b05bc6036b34f354e812ee367b94b",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1646418237,
+                "Keys": {
+                    "name": {
+                        "S": "Midoriya"
+                    },
+                    "id": {
+                        "S": "5e0c0b44-9c77-4571-af9f-da59445b6070"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-04T18:23:57.207Z"
+                    },
+                    "name": {
+                        "S": "Midoriya"
+                    },
+                    "id": {
+                        "S": "5e0c0b44-9c77-4571-af9f-da59445b6070"
+                    },
+                    "power": {
+                        "S": "Soco"
+                    }
+                },
+                "SequenceNumber": "4217700000000073121195961",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:354308489293:table/Heroes/stream/2022-03-04T18:04:10.913"
+        }
+    ]
+}

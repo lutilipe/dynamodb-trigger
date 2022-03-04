@@ -1,6 +1,6 @@
 const uuid = require("uuid")
 const JOI = require("joi")
-const Decorators = require("./utils/decorators");
+const Decorators = require("./decorators");
 
 class Handler {
     constructor(config) {
